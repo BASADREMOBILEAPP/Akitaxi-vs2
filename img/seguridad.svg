@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="708.66138"
+   height="708.66138"
+   id="svg3122"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="tiempo.svg">
+  <defs
+     id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3269">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3271" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3273" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3186">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop3188" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:0;"
+         offset="1"
+         id="stop3190" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3186"
+       id="linearGradient3192"
+       x1="557.60419"
+       y1="599.81378"
+       x2="94.954346"
+       y2="727.09302"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3763-15-0">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.12971365"
+         id="feGaussianBlur3765-27-0" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3269"
+       id="linearGradient3275"
+       x1="488.91385"
+       y1="561.42804"
+       x2="103.03557"
+       y2="719.01178"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="342.63951"
+     inkscape:cy="220.88521"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="667"
+     inkscape:window-height="730"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-343.70077)">
+    <path
+       style="opacity:0.48600003000000003;fill:url(#linearGradient3275);fill-opacity:1;stroke:none"
+       d="M 476.52768,917.97031 288.91614,1038.6333 C 22.228853,975.94843 -61.687617,677.3073 70.593821,499.7608 138.73238,470.6858 201.26283,393.90923 275.0229,412.64992 z"
+       id="path4033"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2985-6-2"
+       width="276.85532"
+       height="513.13928"
+       x="214.00044"
+       y="410.05579"
+       ry="28.722103"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       id="rect2987-1-4"
+       width="234.28343"
+       height="405.33582"
+       x="230.67967"
+       y="473.16876"
+       ry="0"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="path2991-4-3"
+       sodipodi:cx="353.17459"
+       sodipodi:cy="169.74139"
+       sodipodi:rx="7.7024131"
+       sodipodi:ry="6.8185296"
+       d="m 360.877,169.74139 a 7.7024131,6.8185296 0 1 1 -15.40482,0 7.7024131,6.8185296 0 1 1 15.40482,0 z"
+       transform="matrix(1.4463601,0,0,1.4993247,-160.1452,182.59566)"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <path
+       style="opacity:0.59591836;fill:#1a1a1a;fill-opacity:1;stroke:none;filter:url(#filter3763-15-0)"
+       d="m 957.38926,-729.06453 c -2.1106,6.27072 1.281,9.61093 6.8817,11.77459 -7.2267,1.59453 -13.2037,-6.30696 -6.8817,-11.77459 z"
+       id="path2993-2-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(1.4463601,0,0,1.4993247,-1041.4081,1522.4829)"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <path
+       style="fill:#8eff67;fill-opacity:1;stroke:none"
+       d="m 445.2846,779.60891 c 1.92982,-102.39483 93.84654,-75.67397 89.55817,-0.58047 l 18.73103,0 c -1.1386,-58.58144 -25.2363,-83.33453 -64.9736,-85.04374 -53.35416,4.46192 -61.84426,42.7767 -65.19306,84.97117 z"
+       id="path3980"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <path
+       style="fill:#8eff67;fill-opacity:1;stroke:none"
+       d="m 415.38156,784.5432 150.8656,0.79685 -0.82777,82.09546 c -28.07307,98.55957 -147.60726,64.73594 -150.61058,-2.03175 z"
+       id="path3982"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+    <rect
+       style="opacity:0.4857143;fill:#002b00;fill-opacity:1;stroke:none"
+       id="rect3984"
+       width="14.22693"
+       height="54.306801"
+       x="480.77023"
+       y="821.40869"
+       ry="0"
+       inkscape:export-filename="C:\Users\alvaro\seguridad-w.png"
+       inkscape:export-xdpi="64.711411"
+       inkscape:export-ydpi="64.711411" />
+  </g>
+</svg>
