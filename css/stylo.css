@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 *
 {
    margin: 0;
@@ -6,7 +6,8 @@
 }
 body
 {
-   background: #FFFFFa;
+      background: url(../img/fon.svg) #2B6D83;
+      font-family: 'Roboto Condensed', sans-serif;
 }
 header
 {
@@ -57,90 +58,78 @@ header nav ul li a:hover {
    background:#757575;
    padding:20px;
 }
-#baner-hd
-{
-    background: url(../img/fon.svg) #2B6D83;
-  height: 590px;
-  text-align: left;
-  position: relative;
-  padding: 10px 20px 0 20px;
-}
+/*section*/
 #contenedor-h, #telefono-h
 {
   display: inline-block;
   vertical-align: top;
 }
+#contenedor-h
+{
+  width: 60%;
+  background: transparent;
+}
+#quees-h h3
+{
+  text-align: center;
+  margin: 1em;
+  color: white;
+  font-size: 30px;
+
+}
+#quees-h p
+{
+  color: white;
+  font-size: 20px;
+}
+#quees-h
+{
+  margin: 10%  0 10% 5%;
+}
+#descarga-h
+{
+   width: 200px;
+ margin: 0 auto;
+ padding: 23px 36px;
+ background: #f58780;
+ /*box-shadow: 0px 6px 1px #0D47A1;*/
+ border-radius: 6px;
+ text-align: center;
+ font-size: 30px;
+ box-shadow: 0 1px 6px rgba(55, 46, 46, 1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+ -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+#descarga-h a
+{
+  
+    text-decoration: none;
+  color: white;
+}
+#descarga-h:hover {
+  background: #f79d98;
+
+}
+
+
+
 #telefono-h
 {
+  width: 30%;
+  background: transparent;
+  margin: 0 10% 0 0;
   float: right;
-  width: 40%;
 }
 #telefono-h img
 {
   width: 100%;
 }
-#contenedor-h
-{
-    margin: 15% 0 0 3%;
-    width: 50%;
-    color: white;
-    font-family: 'Roboto', sans-serif;
 
-}
-#contenedor-h h3
-{
-  text-align: center;
-  padding: 3px;
-  font-size: 35px;
-}
-#contenedor-h #descarga-h a
-{
-  padding: 20px 60px 20px 60px;
-  background: #0288D1;
-  font-size: 25px;
-  text-decoration:none;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-#descarga-h
-{
-  margin: 2em;
-}
-#texto-s p {
-  font-size: 60px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-}
-#contenedor-s {
-  width: 13em;
-  background: transparent;
-  display: inline-block;
-  vertical-align: top;
-  margin: 5% 3% 6% 5%;
-  text-align: center;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-#contenedor-s img
-{
-  width: 100%;
-}
-#servicios
-{
-  background: #FF6E40;
-}
-/*
-#descarga-h a
-{
-  padding: 20px 60px 20px 60px;
-  background: #0288D1;
-  font-size: 25px;
-  color: white;
-  width: 100%;
-  text-decoration:none;
-  font-family: 'Roboto', sans-serif;
-}*/
+
+
+
+
 
 
 
@@ -189,33 +178,36 @@ header nav ul li a:hover {
       float:right;
       font-size:40px;
    }
-   #contenedor-h
-  {
-    margin: 7% 0 0 3%;
 
-  }
-  /* #descarga-h a
-  {
-  padding: 20px 30px 20px 30px;
-  background: #0288D1;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  }
-  #descarga-h
-{
-  width: 35%;
-      margin: 20% 0 0 5%;
+ 
 
-}*/
+
+
+
+
 
 }
-@media screen and (max-width:403px ){
-  
-
+@media screen and (max-width:350px ){
 #contenedor-h #descarga-h a
 {
   display: inline;
   padding: 20px 40px 20px 40px;
 }
+#contenedor-h, #descarga-h
+{
+  display: inline;
+}
+#telefono-h
+{
+  width: 100%;
+  background: transparent;
+  margin: 10% 10% 0 0;
+  float: right;
+}
+#telefono-h img
+{
+  width: 100%;
+}
+
 
 }
