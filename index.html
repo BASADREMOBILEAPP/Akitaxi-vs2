@@ -2,8 +2,57 @@
 <html>
 <head>
 	<title>akitaxi-vs</title>
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script> 
+<script>
+$(document).ready(function() {
+$('#inicio').click(function(evento) {
+$('#segundo').fadeOut(0);
+$('#baner-hd').fadeIn(1000);
+
+});
+
+$('#uso').click(function(evento) {
+$('#baner-hd').fadeOut(0);
+$('#segundo').fadeIn(1000);
+ var inicio = 0;
+for (var inicio = 0; inicio < 4; inicio++) {
+
+	switch(inicio){
+		case 0:
+			$("#primero-s").fadeIn(1000);
+			$("#primero-s").delay(3000).fadeOut(0);
+			console.log('soy el cero');
+		break;
+		case 1:
+			$("#segundo-s").fadeIn(1000);
+			$("#segundo-s").delay(3000).fadeOut(0);
+			console.log('soy el primero');
+		break;
+		case 2:
+			$("#tercero-s").fadeIn(1000);
+			$("#tercero-s").delay(3000).fadeOut(0);
+			console.log('soy el segundo');
+		break;
+		case 3:
+			$("#cuarto-s").fadeIn(1000);
+			$("#cuarto-s").delay(3000).fadeOut(0);
+			console.log('soy el tercero');
+		break;
+
+
+	}
+	
+
+};
+ // $("4pri++ro-s").delay(300).fadeIn(000);
+});
+// culminado el uso
+
+});
+</script> 
 	<link rel="stylesheet" href="css/stylo.css">
 	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/stylodos.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
@@ -17,17 +66,17 @@
 			<ul>
 				<li><a href="#" id="logo"><img src="img/logo.png"></a></li>
 				<div  id="nave-h">
-					<li><a href="#"><span class="icon-home"></span> INICIO</a></li>	
-					<li><a href="#"><span class="icon-bubbles2"></span>uso</a></li>
-					<li><a href="#"><span class="icon-users"></span>NOSOTROS</a></li>
-					<li><a href="#"><span class="icon-download2"></span> DESCARGA</a></li>
-					<li><a href="#"><span class="icon-clipboard"></span> REGLAS</a></li>
+					<li id="inicio"><a href="#"><span class="icon-home"></span> INICIO</a></li>	
+					<li id="uso"><a href="#"><span class="icon-bubbles2"></span>uso</a></li>
+					<li id="nosotros"><a href="#"><span class="icon-users"></span>NOSOTROS</a></li>
+					<li id="descarga"><a href="#"><span class="icon-download2"></span> DESCARGA</a></li>
+					<li id="reglas"><a href="#"><span class="icon-clipboard"></span> REGLAS</a></li>
 				</div>
 			</ul>
 		</nav>
 	</header>	
 
-	<section id="baner-hd" >
+	<section id="baner-hd"  >
 
 		<div id="contenedor-h">
 			<div id="quees-h">
@@ -47,6 +96,56 @@
 		</div>
 		
 	</section>
+
+
+
+	<div id="segundo" style="display: none;">
+		<div id="primero-s" class="primero-s">
+			<div id="letras">
+				<h2>soy un titulo</h2>
+				<P> Es una aplicacion que  hace como la  pedida de taxi   sin salir de tu casa  solo tienes que   registrarte y  apretar el boton de PEDIR TAXI   aci de facil</P>
+			</div>
+			<div id="image">
+				<img src="img/inicio-w.svg">
+			</div>
+			
+		</div>
+
+		<div id="segundo-s" style="display: none;">
+			<div id="letras">
+				<h2>soy el segundo</h2>
+				<P> Es una aplicacion que  hace como la  pedida de taxi   sin salir de tu casa  solo tienes que   registrarte y  apretar el boton de PEDIR TAXI   aci de facil</P>
+			</div>
+			<div id="image">
+				<img src="img/inicio-w.svg">
+			</div>
+		</div>
+
+		<div id="tercero-s" style="display: none;">
+			<div id="letras">
+				<h2>soy el tercero</h2>
+				<P> Es una aplicacion que  hace como la  pedida de taxi   sin salir de tu casa  solo tienes que   registrarte y  apretar el boton de PEDIR TAXI   aci de facil</P>
+			</div>
+			<div id="image">
+				<img src="img/inicio-w.svg">
+			</div>
+		</div>
+
+		<div id="cuarto-s" style="display: none;">
+			<div id="letras">
+				<h2>soy el cuarto</h2>
+				<P> Es una aplicacion que  hace como la  pedida de taxi   sin salir de tu casa  solo tienes que   registrarte y  apretar el boton de PEDIR TAXI   aci de facil</P>
+			</div>
+			<div id="image">
+				<img src="img/inicio-w.svg">
+			</div>
+			
+		</div>
+			
+	</div>
+	<div id="tercero">
+		
+	</div>
 
 
 	
