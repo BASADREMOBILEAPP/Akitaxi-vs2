@@ -3,53 +3,8 @@
 <head>
 	<title>akitaxi-vs</title>
 	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script> 
-<script>
-$(document).ready(function() {
-$('#inicio').click(function(evento) {
-$('#segundo').fadeOut(0);
-$('#baner-hd').fadeIn(1000);
-
-});
-
-$('#uso').click(function(evento) {
-$('#baner-hd').fadeOut(0);
-$('#segundo').fadeIn(1000);
- var inicio = 0;
-for (var inicio = 0; inicio < 4; inicio++) {
-
-	switch(inicio){
-		case 0:
-			$("#primero-s").fadeIn(1000);
-			$("#primero-s").delay(3000).fadeOut(0);
-			console.log('soy el cero');
-		break;
-		case 1:
-			$("#segundo-s").fadeIn(1000);
-			$("#segundo-s").delay(3000).fadeOut(0);
-			console.log('soy el primero');
-		break;
-		case 2:
-			$("#tercero-s").fadeIn(1000);
-			$("#tercero-s").delay(3000).fadeOut(0);
-			console.log('soy el segundo');
-		break;
-		case 3:
-			$("#cuarto-s").fadeIn(1000);
-			$("#cuarto-s").delay(3000).fadeOut(0);
-			console.log('soy el tercero');
-		break;
-
-
-	}
-	
-
-};
- // $("4pri++ro-s").delay(300).fadeIn(000);
-});
-// culminado el uso
-
-});
-</script> 
+	<script src="js/misfun.js" type="text/javascript" ></script>
+ 
 	<link rel="stylesheet" href="css/stylo.css">
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/stylodos.css">
